@@ -4,7 +4,7 @@ html{
 
 }
 header h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'bank-gothic-medium-bt', Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     color: white;
@@ -37,6 +37,10 @@ header h1{
         color: grey;
            }
   .camp{
-      width: auto;
+      width: 600px;
       height: auto;
+  }
+  @font-face {
+      font-family: 'bank-gothic-medium-bt';
+      src: url('../fonts/bank-gothic-medium-bt.ttf') format('truetype');
   }
